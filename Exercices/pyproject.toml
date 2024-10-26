@@ -1,0 +1,20 @@
+[project]
+name = "UPEC"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "abdallah el hidali", email = "abdallah.el_hidali@sita.aero"},
+]
+dependencies = [
+    "matplotlib>=3.9.2",
+    "pandas>=2.2.3",
+    "seaborn>=0.13.2",
+    "notebook>=7.2.2",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
